@@ -1,5 +1,5 @@
 # Random Name Picker
-Random Name Picker is a small JavaScript project I created while learning it. Simple project based on JavaScript knowledge I have earned by compleating an online course section. 
+Random Name Picker is a small JavaScript project I created while learning the language. Simple project based on JavaScript knowledge I have earned by compleating an online course section. 
 It's design is taken from an existing course I'm taking now on Udemy. I did change some of it to fit my little project. 
 
 
