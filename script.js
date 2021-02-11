@@ -28,5 +28,4 @@ values.push("Bob", "Jim", "Tom", "Anna", "Mark", "Peter", "Bill", "Donald");
 
 document.querySelector(".again").addEventListener("click", function(e) {
   randomValue(values);
-  e.preventDefault;
 });
