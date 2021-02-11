@@ -1,3 +1,5 @@
+"use strict";
+
 const displayName = function(message) {
   document.querySelector(".name").textContent = message;
 };
@@ -13,11 +15,19 @@ function randomValue(val) {
   };
 };
 
+document.addEventListener("keyup", function(e) {
+  if(e.keyCode === 32) {
+    randomValue(values);
+    e.preventDefault;
+  }
+});
+
 //This adds more values to the end of values array
 //You can add/delete these values in here
 //Or you can write another values.push() with more values, that will be added to the current ones
 values.push("Bob", "Jim", "Tom", "Anna", "Mark", "Peter", "Bill", "Donald");
 
-document.querySelector(".again").addEventListener("click", function() {
+document.querySelector(".again").addEventListener("click", function(e) {
   randomValue(values);
+  e.preventDefault;
 });
