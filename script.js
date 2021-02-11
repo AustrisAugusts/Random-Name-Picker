@@ -18,7 +18,6 @@ function randomValue(val) {
 document.addEventListener("keyup", function(e) {
   if(e.keyCode === 32) {
     randomValue(values);
-    e.preventDefault;
   }
 });
 
